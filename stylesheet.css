@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f6f5f8;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+h1, h2, h3, p {
+    color: #2f3f4c;
+}
+
+/* ================================================= */
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.nav-left {
+    
+}
+
+
+/* Landing Section */
+
+/* Main */
+
+/* Footer */
