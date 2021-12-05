@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;800&display=swap');
 
 * {
     margin: 0;
@@ -20,23 +20,131 @@ h1, h2, h3, p {
     color: #2f3f4c;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* ================================================= */
 
 /* Navbar */
+
+.header {
+    width: 100%;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px;
+    align-items: center;
+    padding: 30px 120px;
 }
 
 .nav-left {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
+.nav-left h1 {
+    font-size: 3em;
+}
+
+.vertical-text-stack {
+    font-size: 0.70rem;
+    line-height: 1;
+}
+
+.nav-buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-button {
+    font-size: 0.9rem;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    color: #879cac;
+    transform: scale(1.05);
+}
+
+/* Buttons */
+.btn-light {
+    padding: 10px 40px;
+    border-radius: 0px;
+    border-color: #2f3f4c;
+    color: #2f3f4c;
+    font-weight: 800;
+}
+
+.btn-light:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+
+.btn-dark {
+    padding: 10px 40px;
+    border-radius: 0px;
+    background-color: #f65606;
+    font-weight: 800;
+    color: #e6e6e6;
+    border: none;
+}
+
+.btn-dark:hover{
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
 
 /* Landing Section */
+.landing-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px;
+}
+
+.landing-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+}
+
+.landing-left h1 {
+    font-size: 4em;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #2f3f4c;
+    margin: 40px auto;
+}
+
+.landing-left-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-left-bottom p {
+    font-size: 1.25em;
+    font-weight: 800;
+}
+
+.landing-right img {
+    border-radius: 60px;
+}
 
 /* Main */
+
 
 /* Footer */
